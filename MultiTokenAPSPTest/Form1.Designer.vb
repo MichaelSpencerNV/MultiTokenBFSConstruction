@@ -199,7 +199,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(843, 560)
+        Me.ClientSize = New System.Drawing.Size(839, 559)
         Me.Controls.Add(Me.optLargeDenseMesh)
         Me.Controls.Add(Me.optLargeSparseMesh)
         Me.Controls.Add(Me.btnPlus)
