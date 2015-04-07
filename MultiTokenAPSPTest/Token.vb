@@ -31,7 +31,7 @@
     End Function
 
     Public Sub ProcessRound(round As Integer)
-        If mtokenPossessionCount + mTokensInDockedBay > 0 Then
+        If mtokenPossessionCount > 0 Then
             If myNode.myBFSTree.IsBFSFormationInProgess(myNode.NodeID) = False Then
                 Call BFSFormation.BFSQueryNeighbors(myNode.NodeID, round, myNode.NodeID, myNode, mShowDebugMessages)
             End If
